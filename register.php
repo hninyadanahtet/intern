@@ -13,13 +13,13 @@
         <div class="container">
             <?php include('error.php') ?>
                 <div class="form-group">
-                    <input type="text" name="email" placeholder="Email" class="form-control">
+                    <input type="text" name="email" placeholder="Email" class="form-control col-md-4">
                 </div>
                 <div class="form-group">
-                    <input type="password" name="password1" placeholder="Password" class="form-control">
+                    <input type="password" name="password1" placeholder="Password" class="form-control col-md-4">
                 </div>
                 <div class="form-group">
-                    <input type="password" name="password2" placeholder="Confirm Password" class="form-control">
+                    <input type="password" name="password2" placeholder="Confirm Password" class="form-control col-md-4">
                 </div>
                 <div class="form-group">
                     <button class="btn btn-primary" name='register'> Register</button>
